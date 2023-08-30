@@ -1,0 +1,43 @@
+.flex {
+    display: flex;
+    border: 3px solid red;
+    height: 10vh;
+    justify-content: flex-end;
+}
+
+.nav {
+    border: 3px solid orange;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .nav__list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    border: 3px solid red;
+    width: 70%;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Orbitron';
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Orbitron';
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    border: 3px solid pink;
+    justify-self: flex-start;
+    width: 100%;
+    margin: 1rem;
+}
